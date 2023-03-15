@@ -60,7 +60,7 @@ public class LoginController {
         User user = new User();
         user.setName(signUpRequest.getName());
         user.setEmail(signUpRequest.getEmail());
-        user.setName(signUpRequest.getPassword());
+        user.setPassword(signUpRequest.getPassword());
 
 
         userService.addUser(user);
